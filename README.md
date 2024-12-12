@@ -1,22 +1,81 @@
-##proyecto_parcial_Gestionproyrctos
+##Gestionproyectos
 
-##Descripcion
-"solo el area de usuario usuario_servicio, usuario_conexion y usuario_vista cuenta con funcionaldad no ir a ninguna de las otras que esta medio implementadas pero cunetan con fallos"
+Gestionproyectos es una aplicación diseñada para gestionar proyectos de manera eficiente, proporcionando herramientas de organización y seguimiento. Este proyecto está desarrollado en Python utilizando el marco Reflex.
 
-1.este codigo funciona con una base de datos en MySQL por ende es necesario tener MYSQL y crear una base de datos con el nobre "gestionproyectos" 
-despues de esto en la carpeta de coneciones en conexion en coneccion toca cambiar las credenciales que aparecen por las propias de tu computadora.
+##Características principales
 
-2. tener  equipadas todas las extenciones en visual estudio o donde corras el proyecto y tener instaladas todas las dependecias de pip,python y reflex pertienetes 
+Gestión de proyectos: Crea, edita y elimina proyectos fácilmente.
 
-##Requerimientos
--Python 3.8 o superior
--MySQL
--pip(Gestor de paquetes de Python)
--Reflex(y )
+Interfaz intuitiva: Diseño claro y amigable para facilitar la navegación.
 
-##Intalacion
-1. Clona el Repositorio
+Personalizable: Configuración adaptada a las necesidades del usuario.
 
-gh repo clone insanewarlord/GestionProyectos-Reflex
+##Requisitos previos
 
+Antes de iniciar, asegúrate de tener instalados los siguientes requisitos:
+
+Python 3.8 o superior
+
+Reflex (puedes instalarlo con pip install reflex)
+
+Dependencias adicionales (enumeradas en requirements.txt, si aplica)
+
+##Instalación
+
+Clona este repositorio:
+
+git clone h[ttps://github.com/tuusuario/Gestionproyectos.git](https://github.com/insanewarlord/GestionProyectos-Reflex.git)
+
+Navega al directorio del proyecto:
+
+cd Gestionproyectos
+
+Instala las dependencias:
+
+pip install -r requirements.txt
+
+Uso
+
+##Configura la aplicación:
+
+La configuración principal se encuentra en el archivo config.py. Asegúrate de personalizarla según tus necesidades.
+
+##Ejecuta la aplicación:
+
+python main.py
+
+Accede a la aplicación en tu navegador en http://localhost:8000.
+
+##Estructura del proyecto
+
+Gestionproyectos/
+├── main.py              # Archivo principal para ejecutar la aplicación
+├── config.py            # Configuración de la aplicación
+├── requirements.txt     # Dependencias del proyecto
+├── README.md            # Documentación del proyecto
+└── ...                  # Otros archivos y carpetas relevantes
+
+##Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas colaborar:
+
+##Haz un fork del repositorio.
+
+Crea una rama para tu funcionalidad o corrección:
+
+git checkout -b nombre-rama
+
+Realiza tus cambios y haz un commit:
+
+git commit -m "Descripción de los cambios"
+
+Envía un pull request.
+
+##Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT.
+
+##Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarme en nilson.cuero@correounivalle.edu.co .
 
