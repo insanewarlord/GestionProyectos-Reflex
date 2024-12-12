@@ -1,5 +1,5 @@
 ##Gestionproyectos
-
+(Tener en cuaneta que solo el area de usuario esta totalmente implementada y las otras cuentan con muchas fallas)
 Gestionproyectos es una aplicación diseñada para gestionar proyectos de manera eficiente, proporcionando herramientas de organización y seguimiento. Este proyecto está desarrollado en Python utilizando el marco Reflex.
 
 ##Características principales
